@@ -141,7 +141,7 @@ X = countrywise[["Mortality", "Recovery"]]
 X = std.fit_transform(X)
 # pd 删掉某一行数据
 
-
+# 关于肘部法则
 def ElbowMethod(X):
     wcss = []
     sil = []
@@ -149,6 +149,8 @@ def ElbowMethod(X):
         # 分类的个数 去尝试 每种尝试 发现 2 3 会好一些
         # 再根据层次聚类图 我们认为 选择分成3类比较好
         clf = KMeans(n_clusters=i, init='k-means++', random_state=42)
+        # 分类的个数是2..11  我们都去尝试一下,fit 一下,看一下的出来的结果,画个图,直观一点
+        # 看看那种方案好点
         clf.fit(X)
         labels = clf.labels_
         centroids = clf.cluster_centers_

@@ -47,6 +47,7 @@ def read_file(type_name):
     print(df_sum)
     return df
 
+# 这个函数是读取xlsx文件,然后求和,返回df
 def get_sum(type_name):
 
     df = pd.read_excel(state_filename_base.format(type_name))

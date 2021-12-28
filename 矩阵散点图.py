@@ -202,6 +202,7 @@ import util
 
 # https://blog.csdn.net/qq_41185868/article/details/89226991
 # No handles with labels found to put in legend.
+# 在放legend 的时候 首先画图要有label
 # 不是legend
 # 不要全部显示  plt.legend()
 # 太多 plt.legend()

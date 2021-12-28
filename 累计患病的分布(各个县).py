@@ -8,6 +8,13 @@ try:
     # https://stackoverflow.com/questions/57105747/modulenotfounderror-no-module-named-plotly-graph-objects/57112843
     #     import plotly.graph_objects as go
     #     import plotly.express as px
+    # 这里的一个小问题是 版本问题  plotly.graph_objects 可能不能直接引入 ,需要 from plotly import graph_objs as go, 这都是特定版本的引入方法
+    # 虽然说是小问题,但是一下子也没找到解决方法,是多方查找,才找到stackoverflow的一个回答,我个人认为一个比较好的方案是用try except 来尝试import
+    # 这样以后这个代码如果给别人跑了 或者我换了个环境,他至少可以尝试两种导入方法,导入的成功率会增高很多
+    # 假如我直接换成 from plotly import graph_objs as go 这样子导入了,但是下次我换了个环境,我又需要重新写成import plotly.graph_objects as go了
+    # 这是比较麻烦的,特别是我可能会忘记要这么修改 那我需要重新再去查各种资料,效率就低了
+    # 这一点我是觉得脚本语言比较好的一点 他可以尝试各种import ,因为他的类没有固定,他import了之后,这些类是可以在代码里跑的,但是java这种就过不了编译
+    # 对于java 我就不太清楚 怎么去try catch import  以解决依赖的问题,不过java里好像比较少碰到这种问题
     import plotly.express as px
     import plotly.graph_objects as go
 except ImportError as e:

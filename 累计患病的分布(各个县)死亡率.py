@@ -44,7 +44,7 @@ std = StandardScaler()
 state_filename_base = r"G:\file\学校\可视化\大作业\COVID-19\COVID-19-Data-master\US\State_level_summary\US_State_summary_covid19_{}_trpo.xlsx"
 # state_filename_base=r"COVID-19-Data-master\US\State_level_summary\US_State_summary_covid19_{}_trpo.xlsx"
 # state_filename_base=r"COVID-19-Data-master/US/State_level_summary/US_State_summary_covid19_{}_trpo.xlsx"
-
+# "G:\file\学校\可视化\大作业\COVID-19\GIS疫情地图2020全年-至今数据\【GIS点滴疫情地图·2020年01月02日-2021年01月25日】国内每天疫情统计.xlsx"
 
 # 支持中文
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
@@ -128,7 +128,7 @@ for i in range(2, 11):
     sil.append(silhouette_score(X, labels, metric='euclidean'))
     wcss.append(clf.inertia_)
 
-
+# 肘部法则
 def ElbowMethod():
     x = np.arange(2, 11)
     plt.figure(figsize=(10, 5))
@@ -151,7 +151,7 @@ import scipy.cluster.hierarchy as sch
 
 # 等级制度(尤指社会或组织); 统治集团; 层次体系; hierarchy
 #
-
+# 层次聚类测试
 def HierarchicalClusteringTest():
     plt.figure(figsize=(20, 15))
     # dendrogram 系统树图（一种表示亲缘关系的树状图解）;

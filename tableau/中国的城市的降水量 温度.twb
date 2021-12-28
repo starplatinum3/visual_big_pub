@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='all_factors_china (all_factors_china)' inline='true' name='federated.1gh8al30jh1zt211aydte1rti5e7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='all_factors_china' name='excel-direct.0h3u52k1mbjzil158t37p1h81jxk'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/proj/visualization/bigwork/all_factors_china.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0h3u52k1mbjzil158t37p1h81jxk' name='all_factors_china' table='[all_factors_china$]' type='table'>
+          <columns gridOrigin='A1:F10001:no:A1:F10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='HASC_1' ordinal='1' />
+            <column datatype='real' name='Humidity' ordinal='2' />
+            <column datatype='integer' name='date' ordinal='3' />
+            <column datatype='real' name='Precipitation' ordinal='4' />
+            <column datatype='real' name='Temper_T2MMEAN' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0h3u52k1mbjzil158t37p1h81jxk' name='all_factors_china' table='[all_factors_china$]' type='table'>
+          <columns gridOrigin='A1:F10001:no:A1:F10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='HASC_1' ordinal='1' />
+            <column datatype='real' name='Humidity' ordinal='2' />
+            <column datatype='integer' name='date' ordinal='3' />
+            <column datatype='real' name='Precipitation' ordinal='4' />
+            <column datatype='real' name='Temper_T2MMEAN' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F10001:no:A1:F10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HASC_1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HASC_1]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>HASC_1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Humidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Humidity]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>Humidity</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Precipitation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Precipitation]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>Precipitation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temper_T2MMEAN</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temper_T2MMEAN]</local-name>
+            <parent-name>[all_factors_china]</parent-name>
+            <remote-alias>Temper_T2MMEAN</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Hasc 1' datatype='string' name='[HASC_1]' role='dimension' type='nominal' />
+      <column caption='Temper T2MMEAN' datatype='real' name='[Temper_T2MMEAN]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='all_factors_china' datatype='table' name='[__tableau_internal_object_id__].[all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='integer' name='[date]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='all_factors_china' id='all!factors!china_1BD9E99C53BA4FA288A83E72BB8F5D71'>
+            <properties context=''>
+              <relation connection='excel-direct.0h3u52k1mbjzil158t37p1h81jxk' name='all_factors_china' table='[all_factors_china$]' type='table'>
+                <columns gridOrigin='A1:F10001:no:A1:F10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='HASC_1' ordinal='1' />
+                  <column datatype='real' name='Humidity' ordinal='2' />
+                  <column datatype='integer' name='date' ordinal='3' />
+                  <column datatype='real' name='Precipitation' ordinal='4' />
+                  <column datatype='real' name='Temper_T2MMEAN' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='中国的城市的降水量 温度'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all_factors_china (all_factors_china)' name='federated.1gh8al30jh1zt211aydte1rti5e7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gh8al30jh1zt211aydte1rti5e7'>
+            <column caption='Hasc 1' datatype='string' name='[HASC_1]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Humidity]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Precipitation]' role='measure' type='quantitative' />
+            <column caption='Temper T2MMEAN' datatype='real' name='[Temper_T2MMEAN]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='integer' name='[date]' role='measure' type='quantitative' />
+            <column-instance column='[HASC_1]' derivation='None' name='[none:HASC_1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Humidity]' derivation='Sum' name='[sum:Humidity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Precipitation]' derivation='Sum' name='[sum:Precipitation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Temper_T2MMEAN]' derivation='Sum' name='[sum:Temper_T2MMEAN:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gh8al30jh1zt211aydte1rti5e7].[none:date:qk]' included-values='in-range'>
+            <min>20200101</min>
+            <max>20200101</max>
+          </filter>
+          <slices>
+            <column>[federated.1gh8al30jh1zt211aydte1rti5e7].[none:date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]' />
+              <size column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]' />
+              <text column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Precipitation:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Precipitation:qk]' />
+              <text column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]' />
+              <text column='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk] + ([federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Precipitation:qk] + [federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]))</rows>
+        <cols>[federated.1gh8al30jh1zt211aydte1rti5e7].[none:HASC_1:nk]</cols>
+      </table>
+      <simple-id uuid='{1A7ED5F4-B072-4AF4-B5C1-6DBF51903F17}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='中国的城市的降水量 温度'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]' type='size' />
+            <card pane-specification-id='1' param='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Humidity:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Precipitation:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Temper_T2MMEAN:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gh8al30jh1zt211aydte1rti5e7].[none:date:qk]</field>
+            <field>[federated.1gh8al30jh1zt211aydte1rti5e7].[sum:Precipitation:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8A2BFA4E-51D1-4B5D-B42E-2EA00E3262D6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='中国的城市的降水量 温度' width='192'>
+      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
+      eUHEL/UkLgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
