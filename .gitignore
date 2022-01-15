@@ -6,6 +6,8 @@ target/
 **/backup
 **/target/
 
+gitignore
+
 *.iml
 .gradle
 /local.properties

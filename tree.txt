@@ -1,0 +1,186 @@
+卷 DATA 的文件夹 PATH 列表
+卷序列号为 D631-8936
+D:.
+│  .gitignore
+│  2ED45600
+│  80A04600
+│  839D9600
+│  ame.py
+│  ame_calendar.py
+│  ame_calen_month.py
+│  ame_sta.py
+│  bar.py
+│  bar全球.py
+│  ciyun.py
+│  color.py
+│  cord-19-eda-parse-json-and-generate-clean-csv.ipynb
+│  covid-19-analysis-visualization-comparisons.ipynb
+│  covid-19-before-and-after-quarantine.ipynb
+│  covid-19-data-with-sir-model.ipynb
+│  covid-19-digging-a-bit-deeper.ipynb
+│  covid-19-inf-lung-segmentation-classification.ipynb
+│  covid-19-visualizations-predictions-forecasting copy.ipynb
+│  covid-19-visualizations-predictions-forecasting copy.py
+│  covid-19-visualizations-predictions-forecasting.ipynb
+│  covid-19-visualizations-predictions-forecasting.py
+│  covid19-detection-using-tensorflow-from-chest-xray.ipynb
+│  covid19-explained-through-visualizations.ipynb
+│  data.json
+│  demographics-observation-for-pandemic-escalation.ipynb
+│  execution.py
+│  geospatial-analysis-on-covid-19-day-to-day-track.ipynb
+│  get_data.py
+│  gis.py
+│  Heatmap—traffics  movement  sum.py
+│  Heatmap—traffics  movement .py
+│  Heatmap—traffics  movement avg write csv.py
+│  Heatmap—traffics  movement 时间.py
+│  html.txt
+│  insert.py
+│  join_province.py
+│  lat_lot.py
+│  main.py
+│  map_draw.py
+│  Matplotlib 绘制疫情柱状图 动画.py
+│  panorama-do-covid-19-no-brasil.ipynb
+│  plt.py
+│  plt_china.py
+│  put_iso.py
+│  readGjson.py
+│  readme.md
+│  scatter_test.py
+│  Simple Example_mqp_77.html
+│  Simple 全国 sum.html
+│  Simple 安徽 sum.html
+│  Simple 安徽.html
+│  SIMYOU.TTF
+│  TimeSIR_COVID-19.py
+│  time_test.py
+│  to_database.py
+│  tree.txt
+│  utf8.py
+│  util.py
+│  Walmart stores across the USA_Scatter and Bubble  Chart.py
+│  who-has-covid-19-in-south-korea.ipynb
+│  中国3层次.py
+│  保存gif.py
+│  全球3.py
+│  分类gis数据世界2021-1-25.ipynb
+│  大作业报告.docx
+│  意大利Covid-19病毒感染数学模型及预测.py
+│  所有国家的温度等.xlsx
+│  所有国家的环境因素_平均值.xlsx
+│  所有国家的环境因素_平均值_获得国家名字.xlsx
+│  矩阵散点图.py
+│  累计患病的分布(各个县).py
+│  累计患病的分布(各个县)死亡率.py
+│  累计患病的分布(各个县)死亡率2.ipynb
+│  累计患病的分布(各个县)死亡率gis数据.ipynb
+│  累计患病的分布(各个县)死亡率gis数据.py
+│  累计患病的分布(各个县)死亡率中国.ipynb
+│  累计患病的分布(各个县)死亡率中国.py
+│  获得高维数据.py
+│  获得高维数据_国家合体.py
+│  词云图动态.gif
+│  降维- t-SNE图_china.py
+│  降维- t-SNE图_modi.py
+│  降维- t-SNE图_世界.py
+│  
+├─.idea
+│      bigwork.iml
+│      encodings.xml
+│      misc.xml
+│      modules.xml
+│      vcs.xml
+│      workspace.xml
+│      
+├─.ipynb_checkpoints
+│      covid-19-visualizations-predictions-forecasting copy-checkpoint.ipynb
+│      
+├─db_kind
+│      US_State_summary_covid19_confirmed_trpo.xlsx
+│      
+├─gitignore
+│  │  all_factors_china.csv
+│  │  all_factors_china.xlsx
+│  │  all_factors_china_no_idx.xlsx
+│  │  cluster_summary_wrold.csv
+│  │  cluster_summary_wrold2.csv
+│  │  cluster_summary_wrold_gbk.csv
+│  │  cluster_summary_wrold_gbk_country_all.csv
+│  │  cluster_summary_wrold_utf_8.csv
+│  │  data.xlsx
+│  │  Datewise Growth Factor of different types of cases.png
+│  │  dpc-covid19-ita-andamento-nazionale.csv
+│  │  fac_china_with_province.xlsx
+│  │  fac_china_with_province_摄氏度.xlsx
+│  │  fac_china_with_province_摄氏度2.xlsx
+│  │  iso3.xlsx
+│  │  lat_lot_cities.csv
+│  │  Matrix_Scatter2_modi.pdf
+│  │  Matrix_Scatter_Singledata_modi.png
+│  │  【GIS点滴疫情地图·2020年01月02日-2021年01月25日】国内每天疫情统计.pdf
+│  │  
+│  ├─tableau
+│  │      all_factors_china_no_idx.twb
+│  │      世界2020-01-25 治愈.twb
+│  │      世界地图治愈 死亡.pptx
+│  │      世界地图治愈 死亡.twb
+│  │      中国的城市的降水量 温度.twb
+│  │      中国降水.twb
+│  │      全国随着时间.twb
+│  │      治愈地图.twb
+│  │      温度.twb
+│  │      错误的全国去掉了.pptx
+│  │      错误的全国去掉了.twb
+│  │      错误的全国去掉了2.pptx
+│  │      
+│  └─结果
+│          词云图动态.gif
+│          
+├─kaggle_me_run
+│      covid-19-visualizations-predictions-forecasting.ipynb
+│      
+├─map
+│  │  中国疫情地图.html
+│  │  
+│  └─china
+│          上海疫情地图.html
+│          云南疫情地图.html
+│          内蒙古疫情地图.html
+│          北京疫情地图.html
+│          吉林疫情地图.html
+│          四川疫情地图.html
+│          天津疫情地图.html
+│          宁夏疫情地图.html
+│          安徽疫情地图.html
+│          山东疫情地图.html
+│          山西疫情地图.html
+│          广东疫情地图.html
+│          广西疫情地图.html
+│          新疆疫情地图.html
+│          江苏疫情地图.html
+│          江西疫情地图.html
+│          河北疫情地图.html
+│          河南疫情地图.html
+│          浙江疫情地图.html
+│          海南疫情地图.html
+│          湖北疫情地图.html
+│          湖南疫情地图.html
+│          甘肃疫情地图.html
+│          福建疫情地图.html
+│          西藏疫情地图.html
+│          贵州疫情地图.html
+│          辽宁疫情地图.html
+│          重庆疫情地图.html
+│          陕西疫情地图.html
+│          青海疫情地图.html
+│          黑龙江疫情地图.html
+│          
+└─__pycache__
+        color.cpython-37.pyc
+        execution.cpython-37.pyc
+        get_data.cpython-37.pyc
+        map_draw.cpython-37.pyc
+        util.cpython-37.pyc
+        
